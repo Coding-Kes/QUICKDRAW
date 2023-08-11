@@ -1,0 +1,44 @@
+
+body
+{
+    background-color: #fa900e;
+}
+
+h1
+{
+    color: rgb(31, 218, 53);
+    background-color: #c32020a5;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+p
+{
+    padding-top: 15px;
+    color: rgb(234, 9, 9);
+    font-size: 21px;
+}
+
+canvas
+{
+    border: 5px solid rgb(255, 183, 195);
+    border-radius: 15px;
+    animation-name: canvasC;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes canvasC
+{
+    from{box-shadow: 8px 9px 41px rgb(255, 0, 0);}
+    to{box-shadow: 9px 8px 38px rgb(255, 255, 0);}
+}
+
+
+
+
+
